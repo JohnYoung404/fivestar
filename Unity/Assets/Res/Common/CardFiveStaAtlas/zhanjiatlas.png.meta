@@ -1,13 +1,21 @@
 fileFormatVersion: 2
 guid: 4c5dfc9ae20f62b49b7e031d87262bfa
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: zhanji_1
-    21300002: zhanji_2
-    21300004: zhanji_3
-    21300006: zhanji_4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: zhanji_1
+  - first:
+      213: 21300002
+    second: zhanji_2
+  - first:
+      213: 21300004
+    second: zhanji_3
+  - first:
+      213: 21300006
+    second: zhanji_4
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -61,8 +69,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -73,7 +82,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -84,7 +94,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -95,17 +106,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 54
+    textureFormat: 48
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -125,6 +138,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 41528a8306c4cb840ad1ad26dffcf67e
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -145,6 +159,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: bc37b3c1271d7af46ab0a6c0f0dd4663
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -165,6 +180,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 751a0f956096bf3478d1af1e151a0660
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -185,6 +201,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 154756ae0dee46940a330f8f1d7e95e0
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -193,10 +210,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
